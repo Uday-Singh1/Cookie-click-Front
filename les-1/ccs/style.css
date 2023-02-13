@@ -45,7 +45,6 @@ body {
   display: flex;
   flex-direction: column;
   background: whitesmoke;
-  gap: 2rem;
   width: max-content;
   border-radius: 1rem;
 }
@@ -178,20 +177,20 @@ body {
 }
 
 .score {
-  font-size: 500%;
+  font-size: 400%;
   color: #483434;
   background: whitesmoke;
   padding: 2rem;
   border-radius: 1rem;
   font-weight: 400;
-  width: 50%;
+  width: 35%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .cookie {
-  width: 40rem;
+  width: 30rem;
   aspect-ratio: 1/1;
   background: #c19277;
   border-radius: 50%;
@@ -207,8 +206,26 @@ body {
 .cookie:active {
   transform: scale(0.95);
 }
+.cookie--chocolate {
+  background: #3c2a21;
+  box-shadow: 0 2rem 1.5rem 0rem rgba(0, 0, 0, 0.2);
+  border: 0.5rem solid #1a120b;
+}
+.cookie--chocolate .cookie__spots {
+  background: #1a120b;
+  border-radius: 25%;
+}
+.cookie--valvet {
+  background: #a70d36;
+  box-shadow: 0 2rem 1.5rem 0rem rgba(0, 0, 0, 0.2);
+  border: 0.5rem solid #1a120b;
+}
+.cookie--valvet .cookie__spots {
+  background: #e4dbdd;
+  border-radius: 25%;
+}
 .cookie__spots {
-  width: 8rem;
+  width: 5rem;
   aspect-ratio: 1/1;
   background: #483434;
   border-radius: 45%;
@@ -216,7 +233,7 @@ body {
 }
 .cookie__spots--first {
   top: 10%;
-  left: 5%;
+  left: 10%;
 }
 .cookie__spots--second {
   right: 10%;
@@ -272,7 +289,7 @@ body {
     width: 100%;
   }
   .cookie .upgradesMobile {
-    display: flex;
+    display: grid;
   }
 }
 

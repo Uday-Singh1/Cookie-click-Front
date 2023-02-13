@@ -21,17 +21,21 @@
   <body>
     <header class="header">
       <ul class="upgrades">
-        <li class="upgrades__upgrade">
+        <li class="upgrades__upgrade" id="js--chocolate">
           <i class="fa-solid fa-cookie-bite"></i>
           Chocolate Cookie
         </li>
-        <li class="upgrades__upgrade">
+        <li class="upgrades__upgrade" id="js--multiplier">
           <i class="fa-solid fa-calculator"></i>
           Multiplier
         </li>
-        <li class="upgrades__upgrade">
+        <li class="upgrades__upgrade" id="js--autoScore">
           <i class="fa-solid fa-forward"></i>
           Auto-score
+        </li>
+        <li class="upgrades__upgrade" id="js--red--valvet">
+          <i class="fa-sharp fa-regular fa-cookie"></i>
+          Red velvet Cookie
         </li>
       </ul>
       <div class="buttonAndAvatarWrapper">
@@ -46,8 +50,8 @@
       </div>
     </header>
     <main class="main">
-      <h1 class="score">10.000</h1>
-      <figure class="cookie">
+      <h1 id="js--score" class="score">10.000</h1>
+      <figure class="cookie " id="js--cookie">
         <div class="cookie__spots cookie__spots--first"></div>
         <div class="cookie__spots cookie__spots--second"></div>
         <div class="cookie__spots cookie__spots--third"></div>
@@ -57,22 +61,26 @@
         <div class="cookie__spots cookie__spots--sixth"></div>
         <div class="cookie__spots cookie__spots--seventh"></div>
       </figure>
-
+    </ul>
 </main>
 <ul class="upgradesMobile">
-    <li class="upgradesMobile_upgrade">
+    <li class="upgradesMobile_upgrade" id="js--chocolate--mobile">
       <i class="fa-solid fa-cookie-bite"></i>
       Chocolate
     </li>
-    <li class="upgradesMobile_upgrade">
+    <li class="upgradesMobile_upgrade" id="js--multiplier--mobile">
       <i class="fa-solid fa-calculator"></i>
       Multiplier
     </li>
-    <li class="upgradesMobile_upgrade">
+    <li class="upgradesMobile_upgrade" id="js--autoScore--mobile">
       <i class="fa-solid fa-forward"></i>
         Auto
     </li>
-</ul>
+    <li class="upgradesMobile__upgrade" id="js--red--valvet--mobile">
+      <i class="fa-sharp fa-regular fa-cookie"></i>
+      Red velvet Cookie
+    </li>
+
 </body>
 
 </html>
