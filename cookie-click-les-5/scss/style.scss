@@ -1,0 +1,9 @@
+@use "./abstracts/reset"; //waarom is .scss niet nodig ?
+@use "./base.scss";
+@use "./components/header/header.scss";
+@use "./components/upgrades/upgrades.scss";
+@use "./components/save/save.scss";
+@use "./components/avatar/avatar.scss";
+@use "./components/score/score.scss";
+@use "./components/cookie/cookie.scss";
+@use "./abstracts/mediaqueries"
